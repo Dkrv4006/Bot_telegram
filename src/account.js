@@ -21,7 +21,7 @@ const account = async ( ) => {
         });
         return accoun 
     }).catch((error) => {
-        console.log(chatId, 'Error: ' + error.message);
+        console.log( 'Error: ' + error.message);
     });
     return account
 }
